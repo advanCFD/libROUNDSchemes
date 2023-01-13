@@ -59,6 +59,6 @@ If you use our library, please cite the publications describing its theory and i
 
 ## Reference
 - [1] Deng, X., A unified framework for non-linear reconstruction schemes in a compact stencil. Part 1: beyond second order, Journal of Computational Physics. (submitted)
-- [2] Deng, X., and Xie, B., An OpenFOAM library of high-resolution structure-preserving convection schemes, Computer Physics Communications. (submitted)  
+- [2] Deng, X., and Xie, B., An OpenFOAM library of high-resolution structure-preserving convection schemes. (submitted)  
 
 
