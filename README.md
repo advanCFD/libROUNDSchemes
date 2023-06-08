@@ -58,7 +58,6 @@ The benchmark test of convection of 2D complex waves is available in _tutorial_ 
 If you use our library, please cite the publications describing its theory and implementation [1,2].
 
 ## Reference
-- [1] Deng, X., 2023. A Unified Framework for Non-linear Reconstruction Schemes in a Compact Stencil. Part 1: Beyond Second Order. *Journal of Computational Physics*, p.112052.
-- [2] Deng, X., and Xie, B., An OpenFOAM library of high-resolution structure-preserving convection schemes. (submitted)  
+- [1] Deng, X., 2023. A Unified Framework for Non-linear Reconstruction Schemes in a Compact Stencil. Part 1: Beyond Second Order. *Journal of Computational Physics*, p.112052. 
 
 
