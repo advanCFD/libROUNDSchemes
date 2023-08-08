@@ -25,6 +25,7 @@ ddtSchemes
 gradSchemes
 {
     default        Gauss linear;
+//  default        cellLimited Gauss linear 1.0; //when the mesh is irregular
 }
 
 divSchemes
