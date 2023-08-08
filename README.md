@@ -49,7 +49,7 @@ interpolationSchemes
    reconstruct(rho) ROUNDAplus;
 }
 ```
-* For irregular meshes, adding a limiter to the gradient scheme is required to suppress numerical oscillations:
+* When the mesh is irregular, adding a limiter to the gradient scheme is required to suppress numerical oscillations:
 
 ```
 gradSchemes
