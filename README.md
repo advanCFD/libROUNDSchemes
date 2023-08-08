@@ -49,13 +49,21 @@ interpolationSchemes
    reconstruct(rho) ROUNDAplus;
 }
 ```
+* For irregular meshes, adding a limiter to the gradient scheme is required to suppress numerical oscillations:
+
+```
+gradSchemes
+{
+    default         cellLimited Gauss linear 1.0;
+}
+```
 
 ## Tutorials
 The benchmark test of convection of 2D complex waves is available in _tutorial_ directory.
 
 ## Citation
 
-If you use our library, please cite the publications describing its theory and implementation [1,2].
+If you use our library, please cite the publications describing its theory and implementation [1].
 
 ## Reference
 - [1] Deng, X., 2023. A Unified Framework for Non-linear Reconstruction Schemes in a Compact Stencil. Part 1: Beyond Second Order. *Journal of Computational Physics*, p.112052. 
