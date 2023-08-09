@@ -59,7 +59,7 @@ gradSchemes
 ```
 
 ## Tutorials
-The benchmark test of convection of 2D complex waves is available in _tutorial_ directory.
+The benchmark tests of 2D complex wave convection and Mach 3 forward step are available in _tutorial_ directory.
 
 ## Citation
 
