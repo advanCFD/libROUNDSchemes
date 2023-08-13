@@ -66,6 +66,12 @@ The benchmark tests of 2D complex wave convection and Mach 3 forward step are av
 If you use our library, please cite the publications describing its theory and implementation [1].
 
 ## Reference
-- [1] Deng, X., 2023. A Unified Framework for Non-linear Reconstruction Schemes in a Compact Stencil. Part 1: Beyond Second Order. *Journal of Computational Physics*, p.112052. 
+- [1] Deng, X., 2023. A Unified Framework for Non-linear Reconstruction Schemes in a Compact Stencil. Part 1: Beyond Second Order. *Journal of Computational Physics*, p.112052.
+
+## Validation and Verification
+### 1. Accuracy test
+![accuracyRound](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/ba2d8df4-e51a-4e06-9cfd-d2d905b5a0c7)
+
+
 
 
