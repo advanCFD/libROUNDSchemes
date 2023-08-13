@@ -68,7 +68,7 @@ If you use our library, please cite the publications describing its theory and i
 
 ## Validation and Verification
 ### 1. Accuracy test
-The figure below shows the variation of numerical errors with CPU cost. Compared with the conventional schemes, the ROUND-A, ROUND-A+ and ROUND-L schemes significantly reduce numerical errors with a minor increased CPU time.
+The figure below presents the variation of numerical errors with CPU cost. Compared with the conventional schemes, the ROUND-A, ROUND-A+ and ROUND-L schemes significantly reduce numerical errors with a minor increased CPU time.
 ![accuracyRound](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/ba2d8df4-e51a-4e06-9cfd-d2d905b5a0c7)
 
 ### 2. Rotation of complex profiles
