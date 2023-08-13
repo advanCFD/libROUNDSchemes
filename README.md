@@ -64,14 +64,20 @@ The benchmark tests of 2D complex wave convection and Mach 3 forward step are av
 ## Citation
 
 If you use our library, please cite the publications describing its theory and implementation [1].
-
-## Reference
 - [1] Deng, X., 2023. A Unified Framework for Non-linear Reconstruction Schemes in a Compact Stencil. Part 1: Beyond Second Order. *Journal of Computational Physics*, p.112052.
 
 ## Validation and Verification
 ### 1. Accuracy test
+The figure below shows the variation of numerical errors with CPU cost. Compared with the conventional schemes, the ROUND-A, ROUND-A+ and ROUND-L schemes significantly reduce numerical errors with a minor increased CPU time.
 ![accuracyRound](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/ba2d8df4-e51a-4e06-9cfd-d2d905b5a0c7)
 
+### 2. Rotation of complex profiles
+Rotation of complex profiles by solving scalar transport equation. As shown in the figure below, the ROUND scheme produces low-dissipative results and preserves the structure of the passive transported scalar.
+![RotationRound](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/21a3d9f5-485d-4deb-a453-ffcd51e07f66)
+
+### 3. Supersonic and hypersonic flows around a circular cylinder
+Schlieren images of the density field for the supersonic and hypersonic flows over a circular cylinder are presented below. The numerical solutions demonstrate the high-resolution and shock-capturing capability of the ROUND schemes.
+![Ma3Ma5](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/bdb9eebe-6aef-4fb1-8e6a-2fb3bebe1662)
 
 
 
