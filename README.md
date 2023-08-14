@@ -1,6 +1,6 @@
 # libROUNDSchemes: An OpenFOAM Library of High-resolution Structure-preserving Convection Schemes
 
-libROUNDSchemes is an open-source library for OpenFOAM. It implements ROUND schemes proposed in [1] into unstructured grids based OpenFOAM. The library can significantly reduce numerical errors with a minor increased CPU cost. Moreover, the library can offer an improved structure-preserving property that gives essentially oscillation-free solutions and preserves the structures of the passive transported scalar.
+libROUNDSchemes is an open-source library for OpenFOAM. The library implements the ROUND schemes proposed by [1] into OpenFOAM. The library can significantly reduce numerical errors with a minor increased CPU cost. Moreover, the library can offer an improved structure-preserving property that gives essentially oscillation-free solutions and preserves the structures of the passive transported scalar.
 
 ## Compilation
 
