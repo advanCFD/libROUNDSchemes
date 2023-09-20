@@ -87,5 +87,8 @@ Instantaneous temperature contours of Mach 3 wind tunnel with a forward step are
 Schlieren images of the density field for the supersonic and hypersonic flows over a circular cylinder are presented below. The numerical solutions demonstrate the high-resolution and shock-capturing capability of the ROUND schemes.
 ![Ma3Ma5](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/bdb9eebe-6aef-4fb1-8e6a-2fb3bebe1662)
 
+### 6. Impingement of a supersonic jet on a cone mounted on a flat plate
+A challenging case is presented here to demonstrate the accuracy and robustness of ROUND schemes.
+![impingement](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/b8a7af05-9b1e-48c6-a5ee-9031b8cc980d)
 
 
