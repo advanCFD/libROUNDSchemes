@@ -64,8 +64,9 @@ The benchmark tests of 2D complex wave convection and Mach 3 forward step are av
 
 ## Citation
 
-If you use our library, please cite the publications describing its theory and implementation [1].
+If you use our library, please cite the publications describing its theory [1] and implementation [2].
 - [1] Deng, X., 2023. A Unified Framework for Non-linear Reconstruction Schemes in a Compact Stencil. Part 1: Beyond Second Order. *Journal of Computational Physics*, p.112052.
+- [2] Deng, X., 2023. A new open-source library based on novel high-resolution structure-preserving convection schemes. *Journal of Computational Science*, p.102150.
 
 ## Validation and Verification
 ### 1. Accuracy test
@@ -77,7 +78,7 @@ Rotation of complex profiles by solving scalar transport equation. As shown in t
 ![RotationRound](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/21a3d9f5-485d-4deb-a453-ffcd51e07f66)
 
 ### 3. Convection-diffusion problems of a passively transported scalar
-The convection-diffusion problem is solved here. The Peclet number is 14000. The central scheme solves the diffusion term. We use different convection schemes to discretize the convection term. The results are included below. The classic TVD schemes distort the passively transported profile. The ROUND scheme produces the most accurate result. 
+The convection-diffusion problem is solved here. The Peclet number is 14000. The central scheme solves the diffusion term. We use different convection schemes to discretize the convection term. The results are included below. The classic TVD schemes distort the passively transported profile. The ROUND scheme produces the most accurate result. The details of this case are in Deng, X., Massey, J.C. and Swaminathan, N., 2023. Large-eddy simulation of bluff-body stabilized premixed flames with low-dissipative, structure-preserving convection schemes. *AIP Advances*, 13(5).
 ![convectionDiffusion](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/1988b702-d589-4523-9eb6-27f6417cf022)
 
 ### 4. Mach 3 wind tunnel with a forward step
@@ -92,4 +93,6 @@ Schlieren images of the density field for the supersonic and hypersonic flows ov
 A challenging case is presented here to demonstrate the accuracy and robustness of ROUND schemes.
 ![impingement](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/b8a7af05-9b1e-48c6-a5ee-9031b8cc980d)
 
-
+### 7. Large-eddy simulation of bluff-body stabilized premixed flames
+ROUND schemes are tested for LES of bluff-body stabilized premixed flames. The ROUND schemes improve the numerical resolution. Furthermore, ROUND schemes can better preserve the time-averaged field's statistical axis-symmetry compared with conventional schemes. The details of this simulation are in Deng, X., Massey, J.C. and Swaminathan, N., 2023. Large-eddy simulation of bluff-body stabilized premixed flames with low-dissipative, structure-preserving convection schemes. *AIP Advances*, 13(5).
+![AIPROUND3](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/22246d4a-7838-40be-9499-f841108444c1)
