@@ -96,3 +96,8 @@ A challenging case is presented here to demonstrate the accuracy and robustness 
 ### 7. Large-eddy simulation of bluff-body stabilized premixed flames
 ROUND schemes are tested for LES of bluff-body stabilized premixed flames. The ROUND schemes improve the numerical resolution. Furthermore, ROUND schemes can better preserve the time-averaged field's statistical axis-symmetry compared with conventional schemes. The details of this simulation are in Deng, X., Massey, J.C. and Swaminathan, N., 2023. Large-eddy simulation of bluff-body stabilized premixed flames with low-dissipative, structure-preserving convection schemes. *AIP Advances*, 13(5).
 ![AIPROUND3](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/22246d4a-7838-40be-9499-f841108444c1)
+
+### 8. Comparison with high-order schemes
+The work(Yang, M. and Li, S., 2023. An efficient implementation of compact third-order implicit reconstruction solver with a simple WBAP limiter for compressible flows on unstructured meshes. Engineering Applications of Computational Fluid Mechanics, 17(1), p.2249135.) shows that the ROUND scheme outperforms high-order schemes in some cases such as the isentropic vortex advection test and the two blast wave interaction problem.
+![isentropic vortex](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/da4c6ff4-7c5a-4220-b18b-3f986e3cff1d)
+![9thBlast](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/82c61c77-1b4c-478c-8d0e-620407f82abe)
