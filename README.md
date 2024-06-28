@@ -100,4 +100,5 @@ ROUND schemes are tested for LES of bluff-body stabilized premixed flames. The R
 ### 8. Comparison with high-order schemes
 The work(Yang, M. and Li, S., 2023. An efficient implementation of compact third-order implicit reconstruction solver with a simple WBAP limiter for compressible flows on unstructured meshes. Engineering Applications of Computational Fluid Mechanics, 17(1), p.2249135.) shows that the ROUND scheme outperforms high-order schemes in some cases such as the isentropic vortex advection test and the two blast wave interaction problem.
 ![isentropic vortex](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/da4c6ff4-7c5a-4220-b18b-3f986e3cff1d)
-![9thBlast](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/82c61c77-1b4c-478c-8d0e-620407f82abe)
+![two blast wave](https://github.com/advanCFD/libROUNDSchemes/assets/118991833/149c2180-c7b7-422c-bb51-b2f9a87c7715)
+
